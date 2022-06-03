@@ -1,0 +1,96 @@
+.Main {
+  background-image: url('wea_back.jpg');
+  height: 100vh;
+  padding: 24px;
+}
+
+
+.InputWrap{
+  display: flex;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  /* box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.25); */
+}
+
+.Input{
+  width: 15%;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #5e8dbc;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
+
+.Button{
+  width: 5%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.CardList {
+  display: flex;
+}
+
+
+.Card {
+  width: 170px;
+  height: fit-content;
+  padding: 12px;
+  /* margin-top: 300px; */
+  border-radius: 11px;
+  background-color: #5e8dbc;
+  opacity: 0.8;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  
+  box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.Card:first-child{
+  margin-left: 0;
+}
+
+.MainInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.Title{
+  font-size: 24px;
+  font-weight: 50;
+  opacity: 1;
+}
+
+.Description{
+  margin-top: 4px;
+  font-size: 15px;
+ 
+}
+
+
+.Temperature{
+  margin-top: 12px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.Temperature::after{
+  content: '°С';
+}
+
+
+.Information{
+  margin-top: 12px;
+}
+
+
+.Information > div{
+  margin-top: 2px;
+}
