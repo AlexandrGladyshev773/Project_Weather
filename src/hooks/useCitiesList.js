@@ -12,7 +12,7 @@ const reducer = (state, action) => {
         }
         case 'DELETE_CITY': {
             const oldArray = state.citiesList;
-            const newArray = oldArray.citiesList.filter(el => el !== action.payload)
+            const newArray = oldArray.filter(el => el !== action.payload);
             return { ...state, citiesList: newArray };
         }
         case 'EDIT_CITY': {

@@ -3,9 +3,10 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\hocs",
-    "\\src\\hooks"
+    "\\src\\hooks",
+    "\\src\\Input",
+    "\\src\\SingleCity"
   ],
-  "SelectedNode": "\\src\\hocs\\withGlobalState.js",
+  "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }

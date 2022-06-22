@@ -40,8 +40,8 @@ const CardNoMemo = ({city, setCityCoord}) => {
         return (
             <Link to={`/city/${city.toLowerCase()}`} className="Card">
                 <div className="ActionButtonWrap">
-                    <button classname="ActionButton" onClick={handleOnEdit}>edit</button>
-                    <button classname="ActionButton" onClick={handleOnDelete}>X</button>
+                    <button className="ActionButton" onClick={handleOnEdit}>edit</button>
+                    <button className="ActionButton" onClick={handleOnDelete}>X</button>
                 </div>
                 <div className="MainInfo">
                     <img className="Icon" src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt={icon} />
@@ -59,8 +59,8 @@ const CardNoMemo = ({city, setCityCoord}) => {
     return (
         <div className="Card">
             <div className="ActionButtonWrap">
-                <button classname="ActionButton" onClick={handleOnEdit}>edit</button>
-                <button classname="ActionButton" onClick={handleOnDelete}>X</button>
+                <button className="ActionButton" onClick={handleOnEdit}>edit</button>
+                <button className="ActionButton" onClick={handleOnDelete}>X</button>
             </div>
             <div className="MainInfo">
                 <img className="Icon" src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt={icon} />
