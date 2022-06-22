@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\hocs",
+    "\\src\\hooks"
+  ],
+  "SelectedNode": "\\src\\hocs\\withGlobalState.js",
+  "PreviewInSolutionExplorer": false
+}
