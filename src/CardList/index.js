@@ -44,6 +44,7 @@ class CardListNoState extends React.Component {
     }
 }
 export const CardList = withGlobalState(CardListNoState);
+console.log('1')
 //export const CardList = () => {
 //    const { state: { citiesList } } = useContext(GlobalContext)
 //    return (
